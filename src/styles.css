@@ -1,0 +1,60 @@
+/* Форма */
+.forma {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 8.5%;
+  align-items: center;
+}
+
+/* Блок ошибки */
+.App .is-err {
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+  margin-right: 19%;
+  font-style: italic;
+  font-size: 14px;
+  color: red;
+}
+
+/* Поле ввода */
+.no-err {
+  width: 25%;
+  margin-right: 1.5%;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 10px;
+  outline:none;
+}
+
+/* Кнопка отправки */
+.submitButton {
+  width: 8.5%;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 10px;
+  background-color: rgba(54, 41, 41, 0.75);
+  color: rgb(239, 246, 246);
+  cursor: pointer;
+}
+
+.is-error {
+  width: 25%;
+  margin-right: 1.5%;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 10px;
+  outline:none;
+  box-shadow: 0px 3px 3px 1px rgba(252, 0, 0, 0.352);
+}
+
+.is-er {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  padding-right: 25%;
+  color: green;
+  font-style: italic;
+  font-size: 14px;
+}
